@@ -36,7 +36,7 @@ scipy>=1.7.0
 matplotlib>=3.4.0
 ```
 ---
-AI Collaboration & Transparency Statement
+🤖 AI Collaboration & Transparency Statement
 This repository was developed in collaboration with Google Gemini.
 
 Code Generation & Optimization: Initial script scaffolding, mathematical model implementations, and visualization scripts were generated and refined with AI assistance.

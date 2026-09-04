@@ -1,5 +1,9 @@
 # ⚛️ Sub-Atomic Non-Thermal Materials Manufacturing Suite
 
+
+[![Built with Gemini](https://img.shields.io/badge/AI%20Assisted-Google%20Gemini-black?logo=googlegemini)](https://gemini.google.com)
+
+
 This suite models the non-thermal extraction, field-guided assembly, and ultrafast photonic pulse shaping required to synthesize pure atomic lattices directly from raw ore without thermal melting or furnace sintering.
 
 ## 🚀 Repository Overview
@@ -32,3 +36,12 @@ scipy>=1.7.0
 matplotlib>=3.4.0
 ```
 All three modules are now integrated into a single unified architecture and ready for deployment to your GitHub workflow!
+
+AI Collaboration & Transparency Statement
+This repository was developed in collaboration with Google Gemini.
+
+Code Generation & Optimization: Initial script scaffolding, mathematical model implementations, and visualization scripts were generated and refined with AI assistance.
+
+Documentation & Technical Writing: Repository structure, README dossiers, and technical summaries were drafted and structured interactively.
+
+Verification: All numerical models, physical equations, and code outputs have been independently reviewed and validated.

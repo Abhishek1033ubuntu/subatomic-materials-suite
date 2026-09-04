@@ -1,9 +1,9 @@
-cff-version: 1.2.0
+cff-version: 1.0.0
 message: "If you use or reference this work, please cite it as below."
 authors:
   - family-names: "Singh"
     given-names: "Abhishek"
-orcid: "https://orcid.org/0009-0004-6913-096X"
-title: "subatomic-materials-suite"
+    orcid: "https://orcid.org/0009-0004-6913-096X"
+title: "subatomic-inverse-design"
 date-released: 2026-09-04
-version: v1.0.0
+version: "1.0.0"

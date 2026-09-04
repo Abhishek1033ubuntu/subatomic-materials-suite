@@ -2,7 +2,7 @@
 
 
 [![Built with Gemini](https://img.shields.io/badge/AI%20Assisted-Google%20Gemini-black?logo=googlegemini)](https://gemini.google.com)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22308189.svg)](https://doi.org/10.5281/zenodo.22308189)
 
 This suite models the non-thermal extraction, field-guided assembly, and ultrafast photonic pulse shaping required to synthesize pure atomic lattices directly from raw ore without thermal melting or furnace sintering.
 
@@ -36,7 +36,9 @@ scipy>=1.7.0
 matplotlib>=3.4.0
 ```
 ---
+
 🤖 AI Collaboration & Transparency Statement
+```
 This repository was developed in collaboration with Google Gemini.
 
 Code Generation & Optimization: Initial script scaffolding, mathematical model implementations, and visualization scripts were generated and refined with AI assistance.
@@ -44,3 +46,4 @@ Code Generation & Optimization: Initial script scaffolding, mathematical model i
 Documentation & Technical Writing: Repository structure, README dossiers, and technical summaries were drafted and structured interactively.
 
 Verification: All numerical models, physical equations, and code outputs have been independently reviewed and validated.
+```

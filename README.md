@@ -36,8 +36,6 @@ scipy>=1.7.0
 matplotlib>=3.4.0
 ```
 ---
-All three modules are now integrated into a single unified architecture and ready for deployment to your GitHub workflow!
-
 AI Collaboration & Transparency Statement
 This repository was developed in collaboration with Google Gemini.
 

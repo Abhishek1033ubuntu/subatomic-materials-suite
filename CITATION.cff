@@ -1,10 +1,10 @@
-cff-version: 1.2.0
+cff-version: 1.0.0
 message: "If you use this software suite, please cite it as below."
 title: "Sub-Atomic Materials Suite: Non-Thermal Extraction and Field-Guided Assembly"
 authors:
   - family-names: "Singh"
     given-names: "Abhishek"
-    orcid: "https://orcid.org/YOUR-ORCID-ID"
+        orcid: "https://orcid.org/0009-0004-6913-096X"
 version: "1.0.0"
 date-released: 2026-09-04
 repository-code: "https://github.com/Abhishek1033ubuntu/subatomic-materials-suite"

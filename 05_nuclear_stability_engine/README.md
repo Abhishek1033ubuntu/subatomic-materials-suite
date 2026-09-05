@@ -13,6 +13,7 @@ The `05_nuclear_stability_engine` module provides computational methods for eval
 Execute the nuclide matrix evaluator directly:
 ```bash
 python 05_nuclear_stability_engine/nuclide_matrix.py
+```
 ---
 
 ### Step 3: Update Root `README.md`

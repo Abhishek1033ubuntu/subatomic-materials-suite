@@ -1,23 +1,34 @@
-# ⚛️ Sub-Atomic Materials Suite Monorepo
+# Subatomic Materials Suite (`subatomic-materials-suite`)
 
-[![Built with Gemini](https://img.shields.io/badge/AI%20Assisted-Google%20Gemini-black?logo=googlegemini)](https://gemini.google.com)
+[![Release](https://img.shields.io/badge/Release-v1.1.0-blue.svg)](https://github.com/Abhishek1033ubuntu/subatomic-materials-suite/releases/tag/v1.1.0)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22335219.svg)](https://doi.org/10.5281/zenodo.22335219)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0004--6913--096X-green.svg)](https://orcid.org/0009-0004-6913-096X)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![Built with Gemini](https://img.shields.io/badge/AI%20Assisted-Google%20Gemini-black?logo=googlegemini)](https://gemini.google.com)
 
-This suite models the non-thermal extraction, field-guided assembly, and ultrafast photonic pulse shaping required to synthesize pure atomic lattices directly from raw ore without thermal melting or furnace sintering.
-
-A high-performance computational modeling framework for simulating non-thermal field-guided atomic extraction, potential-well-engineered assembly, and electronic transport properties in advanced semiconductor interconnects.
-
-## Architecture & Core Modules
-
-The suite is organized into four interconnected physics engines orchestrated by a central root pipeline (`master_pipeline.py`):
-
-1. **`03_non-thermal-photonic-processing`**: Simulates attosecond optical pulse generation ($80\text{ as}$, $10.0\text{ GV/m}$ peak fields) driving electric polarization without thermal lattice dissipation.
-2. **`01_direct-field-transmutation`**: Models non-thermal bond cleavage and elemental extraction yields from raw mineral oxides ($\text{Fe-O}$, $\text{Si-O}$) using field ionization thresholds.
-3. **`02_subatomic-inverse-design`**: Calculates external field coupling and potential well deepening ($U_{\text{eff}} = -10.83\text{ eV}$) to force crystalline alignment during atomic assembly.
-4. **`04_transport_conductivity`**: Evaluates thin-film transport dynamics using the Mayadas-Shatzkes (grain boundary scattering) and Fuchs-Sondheimer (surface scattering) models to compute electrical conductivity and resistivity improvements in nanoscale interconnects ($\text{Au}$, $\text{Cu}$, $\text{Ti}$).
+An integrated High-Performance Computing (HPC) simulation framework for field-guided atomic assembly, quantum transport modeling, and subatomic/nuclear state engineering.
 
 ---
 
+## Suite Architecture
+
+The suite consists of 5 modular simulation engines:
+
+1. **`01_direct-field-transmutation`**: Models non-thermal bond cleavage using intense electric field vectors ($E_0 \ge 4.0\text{--}6.3\text{ GV/m}$).
+2. **`02_subatomic-inverse-design`**: Simulates field-assisted potential well deepening ($U_{\text{eff}} = -10.83\text{ eV}$) for defect-free atomic alignment.
+3. **`03_non-thermal-photonic-processing`**: Attosecond photonic driver ($80\text{ as}$, $10.0\text{ GV/m}$) for non-thermal lattice excitation.
+4. **`04_transport_conductivity`**: Mayadas-Shatzkes and Fuchs-Sondheimer quantum transport model for sub-10nm metallic interconnects.
+5. **`05_nuclear_stability_engine`**: Semi-Empirical Mass Formula (SEMF) evaluator for nuclide binding energy, valley of beta-stability, and decay $Q$-values.
+---
+## Validated Benchmarks (10 nm Gold Interconnect)
+
+| Metric | Conventional Standard | Suite Field-Guided Target | Improvement |
+| :--- | :--- | :--- | :--- |
+| **Resistivity ($\rho$)** | $24.68\ \mu\Omega\cdot\text{cm}$ | $2.78\ \mu\Omega\cdot\text{cm}$ | **88.72% Reduction** |
+| **Conductivity ($\sigma$)** | $4.05\text{ MS/m}$ | $35.93\text{ MS/m}$ | **786.71% Increase** |
+| **Surface Specularity ($p$)** | $0.20$ | $0.85$ | Specular electron reflection |
+| **Grain Diameter ($d$)** | $10.0\text{ nm}$ | $100.0\text{ nm}$ | Near single-crystal grain boundaries |
+
+---
 ## Directory Structure
 ```
 subatomic-materials-suite/
@@ -37,6 +48,12 @@ subatomic-materials-suite/
 │   ├── README.md
 │   ├── transport_engine.py
 │   └── requirements.txt
+├──05_nuclear_stability_engine/
+├── README.md
+│    ├── nuclide_matrix.py       # Module A: SEMF & Decay Q-Value Matrix
+│    ├── decay_kinetics.py       # Module B: Fermi Golden Rule & Half-Life Predictor
+│    ├── field_deexcitation.py   # Module C: Resonant Coupling & Barrier Modifier
+│    └── requirements.txt
 ├── CITATION.cff                           # Standard Citation File (Schema 1.2.0)
 ├── master_pipeline.py                     # Master Orchestrator Pipeline
 ├── README.md                              # Repository Documentation

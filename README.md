@@ -1,7 +1,7 @@
 # ⚛️ Sub-Atomic Materials Suite Monorepo
 
 [![Built with Gemini](https://img.shields.io/badge/AI%20Assisted-Google%20Gemini-black?logo=googlegemini)](https://gemini.google.com)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22308189.svg)](https://doi.org/10.5281/zenodo.22308189)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22335219.svg)](https://doi.org/10.5281/zenodo.22335219)
 
 This suite models the non-thermal extraction, field-guided assembly, and ultrafast photonic pulse shaping required to synthesize pure atomic lattices directly from raw ore without thermal melting or furnace sintering.
 

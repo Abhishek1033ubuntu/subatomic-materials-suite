@@ -91,7 +91,7 @@ matplotlib>=3.4.0
 ```
 
 🤖 AI Collaboration & Transparency Statement
-
+```
 This repository was developed in collaboration with Google Gemini.
 
 Code Generation & Optimization: Initial script scaffolding, mathematical model implementations, and visualization scripts were generated and refined with AI assistance.
@@ -99,3 +99,4 @@ Code Generation & Optimization: Initial script scaffolding, mathematical model i
 Documentation & Technical Writing: Repository structure, README dossiers, and technical summaries were drafted and structured interactively.
 
 Verification: All numerical models, physical equations, and code outputs have been independently reviewed and validated.
+```

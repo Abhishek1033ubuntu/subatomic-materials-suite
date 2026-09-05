@@ -19,7 +19,6 @@ python 05_nuclear_stability_engine/nuclide_matrix.py
 
 Replace your root **`README.md`** with the updated version below. It includes the **Gemini Development Partner** badge alongside Zenodo and ORCID metadata.
 
-```markdown
 # Subatomic Materials Suite (`subatomic-materials-suite`)
 
 [![Release](https://img.shields.io/badge/Release-v1.1.0-blue.svg)](https://github.com/Abhishek1033ubuntu/subatomic-materials-suite/releases/tag/v1.1.0)
@@ -55,7 +54,7 @@ The suite consists of 5 modular simulation engines:
 ---
 
 ## Quick Start
-
+```
 ### Installation
 ```bash
 git clone [https://github.com/Abhishek1033ubuntu/subatomic-materials-suite.git](https://github.com/Abhishek1033ubuntu/subatomic-materials-suite.git)

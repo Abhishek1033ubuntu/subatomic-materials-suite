@@ -49,10 +49,10 @@ subatomic-materials-suite/
 │   ├── transport_engine.py
 │   └── requirements.txt
 ├──05_nuclear_stability_engine/
-├── README.md
-│    ├── nuclide_matrix.py       # Module A: SEMF & Decay Q-Value Matrix
-│    ├── decay_kinetics.py       # Module B: Fermi Golden Rule & Half-Life Predictor
-│    ├── field_deexcitation.py   # Module C: Resonant Coupling & Barrier Modifier
+│   ├── README.md
+│   ├── nuclide_matrix.py       # Module A: SEMF & Decay Q-Value Matrix
+│   ├── decay_kinetics.py       # Module B: Fermi Golden Rule & Half-Life Predictor
+│   ├── field_deexcitation.py   # Module C: Resonant Coupling & Barrier Modifier
 │    └── requirements.txt
 ├── CITATION.cff                           # Standard Citation File (Schema 1.2.0)
 ├── master_pipeline.py                     # Master Orchestrator Pipeline

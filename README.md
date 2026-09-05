@@ -53,7 +53,7 @@ subatomic-materials-suite/
 │   ├── nuclide_matrix.py       # Module A: SEMF & Decay Q-Value Matrix
 │   ├── decay_kinetics.py       # Module B: Fermi Golden Rule & Half-Life Predictor
 │   ├── field_deexcitation.py   # Module C: Resonant Coupling & Barrier Modifier
-│    └── requirements.txt
+│   └── requirements.txt
 ├── CITATION.cff                           # Standard Citation File (Schema 1.2.0)
 ├── master_pipeline.py                     # Master Orchestrator Pipeline
 ├── README.md                              # Repository Documentation

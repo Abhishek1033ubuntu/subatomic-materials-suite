@@ -5,7 +5,7 @@ authors:
     given-names: "Abhishek"
     orcid: "https://orcid.org/0009-0004-6913-096X"
 title: "subatomic-materials-suite: HPC Framework for Field-Guided Atomic Assembly and Nuclear State Engineering"
-version: 1.1.0
+version: 1.2.0
 date-released: 2026-09-05
 doi: 10.5281/zenodo.22335219
 repository-code: "https://github.com/Abhishek1033ubuntu/subatomic-materials-suite"

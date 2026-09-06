@@ -1,7 +1,7 @@
 # Subatomic Materials Suite (`subatomic-materials-suite`)
 
 [![Release](https://img.shields.io/badge/Release-v1.3.0-blue.svg)](https://github.com/Abhishek1033ubuntu/subatomic-materials-suite/releases/tag/v1.3.0)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22508004.svg)](https://doi.org/10.5281/zenodo.22508004) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22548016.svg)](https://doi.org/10.5281/zenodo.22548016) 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--6913--096X-green.svg)](https://orcid.org/0009-0004-6913-096X) 
 [![Gemini AI Partner](https://img.shields.io/badge/Development%20Partner-Gemini%202.5-8E7CC3?logo=google-gemini&logoColor=white)](https://gemini.google.com) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 

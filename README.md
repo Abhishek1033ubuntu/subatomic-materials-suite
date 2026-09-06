@@ -65,8 +65,8 @@ subatomic-materials-suite/
 
 When field-guided non-thermal assembly ($U_{\text{eff}} = -10.83\text{ eV}$) is applied to $10\text{ nm}$ gold ($\text{Au}$) interconnect lines compared to standard thermal processing:
 
-* **Resistivity Reduction:** $24.68\ \mu\Omega\cdot\text{cm} \longrightarrow 2.78\ \mu\Omega\cdot\text{cm}$ (**$88.72%\%$ reduction**)
-* **Conductivity Improvement:** $4.05\text{ MS/m} \longrightarrow 35.93\text{ MS/m}$ (**$786.71%\%$ gain**)
+* **Resistivity Reduction:** $24.68\ \mu\Omega\cdot\text{cm} \longrightarrow 2.78\ \mu\Omega\cdot\text{cm}$ (**$88.72\%$ reduction**)
+* **Conductivity Improvement:** $4.05\text{ MS/m} \longrightarrow 35.93\text{ MS/m}$ (**$786.71\%$ gain**)
 
 ---
 

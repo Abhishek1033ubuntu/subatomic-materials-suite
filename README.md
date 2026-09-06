@@ -52,12 +52,18 @@ subatomic-materials-suite/
 │   ├── README.md
 │   ├── transport_engine.py
 │   └── requirements.txt
-├──05_nuclear_stability_engine/
+├── 05_nuclear_stability_engine/
 │   ├── README.md
 │   ├── nuclide_matrix.py       # Module A: SEMF & Decay Q-Value Matrix
 │   ├── decay_kinetics.py       # Module B: Fermi Golden Rule & Half-Life Predictor
 │   ├── field_deexcitation.py   # Module C: Resonant Coupling & Barrier Modifier
 │   └── requirements.txt
+├── 06_portable_power_framework/
+│   ├── README.md
+│   ├── multiscale_modules.py     # Priority 1: Physics & Conversion Engine (mW to MW)
+│   ├── safety_containment.py     # Priority 2: Shielding, Attenuation & Thermal Dissipation
+│   ├── rtg_integration.py        # Priority 3: Solid-State & Hybrid Generator Integration
+│   └── governance_protocols.py   # Priority 4: IAEA, Safeguards & Non-Proliferation Matrix
 ├── CITATION.cff                           # Standard Citation File (Schema 1.2.0)
 ├── master_pipeline.py                     # Master Orchestrator Pipeline
 ├── README.md                              # Repository Documentation

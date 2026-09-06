@@ -7,7 +7,7 @@ authors:
 title: "subatomic-materials-suite: HPC Framework for Field-Guided Atomic Assembly and Nuclear State Engineering"
 version: 1.3.0
 date-released: 2026-09-06
-doi: 10.5281/zenodo.22508004
+doi: 10.5281/zenodo.22548016
 repository-code: "https://github.com/Abhishek1033ubuntu/subatomic-materials-suite"
 keywords:
   - subatomic physics

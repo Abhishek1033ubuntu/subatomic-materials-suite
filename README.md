@@ -64,7 +64,7 @@ subatomic-materials-suite/
 │   ├── safety_containment.py              # Priority 2: Shielding, Attenuation & Thermal Dissipation
 │   ├── rtg_integration.py                 # Priority 3: Solid-State & Hybrid Generator Integration
 │   └── governance_protocols.py            # Priority 4: IAEA, Safeguards & Non-Proliferation Matrix
-├── CITATION.cff                           # Standard Citation File (Schema 1.2.0)
+├── CITATION.cff                           # Standard Citation File (Schema 1.3.0)
 ├── master_pipeline.py                     # Master Orchestrator Pipeline
 ├── README.md                              # Repository Documentation
 └── requirements.txt                       # Global Project Dependencies

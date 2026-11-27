@@ -1,19 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this software in your research, please cite it using these metadata."
+message: "If you use this software or multi-physics simulation suite, please cite it as below."
+title: "subatomic-materials-suite: Multi-Physics Subatomic, Nuclear, and Millimeter-Wave Boundary Simulation Suite"
+version: 1.4.0
+date-released: 2026-11-27
 authors:
   - family-names: "Singh"
     given-names: "Abhishek"
     orcid: "https://orcid.org/0009-0004-6913-096X"
-title: "subatomic-materials-suite: HPC Framework for Field-Guided Atomic Assembly and Nuclear State Engineering"
-version: 1.3.0
-date-released: 2026-09-06
-doi: 10.5281/zenodo.22548016
 repository-code: "https://github.com/Abhishek1033ubuntu/subatomic-materials-suite"
 keywords:
-  - subatomic physics
-  - quantum transport
-  - field-guided assembly
-  - interconnects
-  - nuclear transmutation
-  - portable power framework
-license: MIT
+  - millimeter-wave waveguides
+  - passive intermodulation
+  - surface-roughness skin loss
+  - subatomic materials screening
+  - multi-physics simulation

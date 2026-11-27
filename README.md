@@ -20,7 +20,7 @@ The suite consists of 6 modular simulation engines:
 4. **`04_transport_conductivity`**: Mayadas-Shatzkes and Fuchs-Sondheimer quantum transport model for sub-10nm metallic interconnects.
 5. **`05_nuclear_stability_engine`**: Semi-Empirical Mass Formula (SEMF) evaluator for nuclide binding energy, valley of beta-stability, and decay $Q$-values.
 6. **`06_portable_power_framework`**: Multiscale power generation modeling ($mW$ to $MW$), betavoltaic/RTG coupling, radiation shielding attenuation, and IAEA governance compliance.
-7. **'07_mmwave_waveguide_boundary_optimizer'**: Multi-physics millimeter-wave waveguide boundary-condition and Passive Intermodulation (PIM) screening engine for frequencies above 30 GHz (WR-28 to WR-10). Evaluates cascaded surface impedance across a graded Cu &rarr; TaN &rarr; Ag (1.8 &mu;m) &rarr; Au (40 nm) wall stack, Huray snowball surface-roughness skin-loss multipliers (K<sub>SR</sub>), and third-order intermodulation (IM<sub>3</sub>) suppression by eliminating ferromagnetic Ni underlayers (&chi;<sub>m</sub> &lt; 0) and native metal-oxide-metal (MOM) tunneling junctions.
+7. **`07_mmwave_waveguide_boundary_optimizer`**: Multi-physics millimeter-wave waveguide boundary-condition and Passive Intermodulation (PIM) screening engine for frequencies above 30 GHz (WR-28 to WR-10). Evaluates cascaded surface impedance across a graded Cu &rarr; TaN &rarr; Ag (1.8 &mu;m) &rarr; Au (40 nm) wall stack, Huray snowball surface-roughness skin-loss multipliers (K<sub>SR</sub>), and third-order intermodulation (IM<sub>3</sub>) suppression by eliminating ferromagnetic Ni underlayers (&chi;<sub>m</sub> &lt; 0) and native metal-oxide-metal (MOM) tunneling junctions.
 
 ---
 
